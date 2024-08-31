@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   
+}
+
+body{
+    background-color: black;
+    color:white ;
+}
+
+
+
+.navbar-brand{
+    font-family: 'Sevillana';
+}
+
+.img{
+    border-radius: 50%;
+}
+
+.col1:hover{
+    background-color: rgba(255, 255, 255, 0.192);
+    border-radius: 15px;
+}
+
+
+.movie-card{
+    position: relative;
+}
+
+
+.movie-play-button {
+    position: absolute;
+    bottom: 100px;
+    right: 20px;
+    background: rgb(0, 128, 117);
+    border: none;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+

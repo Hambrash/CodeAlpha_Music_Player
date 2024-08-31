@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Sevillana', cursive;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.music-player {
+    background-color: #1c1c1c;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.album-art img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.track-info h4, 
+.track-info h5, 
+.track-info p {
+    margin: 5px 0;
+}
+
+.controls button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.controls button i {
+    font-size: 20px;
+}
+
+.progress-container input,
+.volume-control input {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
